@@ -1,4 +1,4 @@
-package com.wstxda.voicegpt
+package com.kusumaos.searchlitebridge
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

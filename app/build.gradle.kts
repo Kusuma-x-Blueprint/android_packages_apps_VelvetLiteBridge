@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.wstxda.voicegpt"
-    compileSdk = 34
+    namespace = "com.kusumaos.searchlitebridge"
+    compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.wstxda.voicegpt"
+        applicationId = "com.kusumaos.searchlitebridge"
         minSdk = 24
-        targetSdk = 35
-        versionCode = 120
-        versionName = "1.2"
+        targetSdk = 33
+        versionCode = 100
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

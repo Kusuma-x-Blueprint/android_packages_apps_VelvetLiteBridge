@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "VoiceGPT"
+rootProject.name = "Google Go Bridge"
 include(":app")
