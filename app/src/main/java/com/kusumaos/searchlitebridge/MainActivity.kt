@@ -20,11 +20,10 @@ class MainActivity : Activity() {
 
     private fun launchAssistantActivity() {
         val intent = Intent().apply {
-            action = Intent.ACTION_MAIN
-            addCategory(Intent.CATEGORY_LAUNCHER)
-            component =
-                ComponentName(GSA_LITE_PACKAGE, 
-                        "com.google.android.apps.searchlite.assistant.widgetentry.AssistantActivity")
+            action = GSA_LITE_PACKAGE + ".SEARCH"
+            putExtra("openMic", true)
+            putExtra(GSA_LITE_PACKAGE + ".SKIP_BYPASS_AND_ONBOARDING", true)
+            `package` = GSA_LITE_PACKAGE
         }
         try {
             startActivity(intent)
